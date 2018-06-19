@@ -11,16 +11,13 @@ var ArticleSchema = new Schema({
     required: true,
     unique: true
   },
-  link: {
+  date: {
     type: String,
     required: true,
   },
-  summary: {
+  url: {
     type: String,
     required: true
-  },
-  image: {
-    type: String,
   }
 });
 
